@@ -1,0 +1,17 @@
+/Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/EndToEndProject/bin/Debug/net8.0/EndToEndProject
+/Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/EndToEndProject/bin/Debug/net8.0/EndToEndProject.deps.json
+/Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/EndToEndProject/bin/Debug/net8.0/EndToEndProject.runtimeconfig.json
+/Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/EndToEndProject/bin/Debug/net8.0/EndToEndProject.dll
+/Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/EndToEndProject/bin/Debug/net8.0/EndToEndProject.pdb
+/Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/EndToEndProject/obj/Debug/net8.0/EndToEndProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/EndToEndProject/obj/Debug/net8.0/EndToEndProject.AssemblyInfoInputs.cache
+/Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/EndToEndProject/obj/Debug/net8.0/EndToEndProject.AssemblyInfo.cs
+/Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/EndToEndProject/obj/Debug/net8.0/EndToEndProject.csproj.CoreCompileInputs.cache
+/Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/EndToEndProject/obj/Debug/net8.0/EndToEndProject.dll
+/Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/EndToEndProject/obj/Debug/net8.0/refint/EndToEndProject.dll
+/Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/EndToEndProject/obj/Debug/net8.0/EndToEndProject.pdb
+/Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/EndToEndProject/obj/Debug/net8.0/EndToEndProject.genruntimeconfig.cache
+/Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/EndToEndProject/obj/Debug/net8.0/ref/EndToEndProject.dll
+/Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/EndToEndProject/bin/Debug/net8.0/NameGenerator.dll
+/Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/EndToEndProject/obj/Debug/net8.0/EndToEndProject.csproj.AssemblyReference.cache
+/Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/EndToEndProject/obj/Debug/net8.0/EndToEnd.54B5776C.Up2Date
