@@ -15,3 +15,4 @@
 /Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/EndToEndProject/bin/Debug/net8.0/NameGenerator.dll
 /Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/EndToEndProject/obj/Debug/net8.0/EndToEndProject.csproj.AssemblyReference.cache
 /Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/EndToEndProject/obj/Debug/net8.0/EndToEnd.54B5776C.Up2Date
+/Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/EndToEndProject/obj/Debug/net8.0/EndToEndProject.sourcelink.json
