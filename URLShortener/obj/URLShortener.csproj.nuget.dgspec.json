@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/E2E/URLShortener/URLShortener.csproj": {}
+    "/Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/URLShortener.csproj": {}
   },
   "projects": {
-    "/Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/E2E/URLShortener/URLShortener.csproj": {
+    "/Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/URLShortener.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/E2E/URLShortener/URLShortener.csproj",
+        "projectUniqueName": "/Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/URLShortener.csproj",
         "projectName": "URLShortener",
-        "projectPath": "/Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/E2E/URLShortener/URLShortener.csproj",
+        "projectPath": "/Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/URLShortener.csproj",
         "packagesPath": "/Users/youssefbr/.nuget/packages/",
-        "outputPath": "/Users/youssefbr/Desktop/ProgramingProjects/Bootcamp/E2E/URLShortener/obj/",
+        "outputPath": "/Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/youssefbr/.nuget/NuGet/NuGet.Config"
