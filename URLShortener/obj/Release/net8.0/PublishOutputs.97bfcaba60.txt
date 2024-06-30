@@ -1,0 +1,7 @@
+/Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/bin/Publish/URLShortener
+/Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/bin/Publish/appsettings.Development.json
+/Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/bin/Publish/appsettings.json
+/Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/bin/Publish/URLShortener.dll
+/Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/bin/Publish/URLShortener.deps.json
+/Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/bin/Publish/URLShortener.runtimeconfig.json
+/Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/bin/Publish/URLShortener.pdb

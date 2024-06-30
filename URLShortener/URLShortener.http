@@ -1,4 +1,4 @@
-@URLShortener_HostAddress = http://localhost:5138
+@URLShortener_HostAddress = https://youssef-urlshortner.scm.azurewebsites.net/api/deployments/latest
 
 # API: Get short url
 # This call should retrun a string "http://localhost:5097/navigate/ge123"
