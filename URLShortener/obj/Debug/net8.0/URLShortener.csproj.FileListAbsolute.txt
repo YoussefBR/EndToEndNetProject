@@ -49,3 +49,13 @@
 /Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/obj/Debug/net8.0/URLShortener.pdb
 /Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/obj/Debug/net8.0/URLShortener.genruntimeconfig.cache
 /Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/obj/Debug/net8.0/ref/URLShortener.dll
+/Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/obj/Debug/net8.0/URLShortener.csproj.AssemblyReference.cache
+/Users/youssefbr/Desktop/ProgrammingProjects/Bootcamp/E2E/URLShortener/obj/Debug/net8.0/URLShort.B3468CCB.Up2Date

@@ -18,21 +18,20 @@ public class BasicAuthenticationHandler(
     {
         try
         {
-            // SM: The API will receive Basic username:password in Base 64. We will decode it
+            // The API will receive Basic username:password in Base 64. We will decode it
             var authHeader = AuthenticationHeaderValue.Parse(Request.Headers.Authorization!);
             var credentialBytes = Convert.FromBase64String(authHeader.Parameter!);
-            // SM: This splits the "username:password" to an array of [username,password]
+            // This splits the "username:password" to an array of [username,password]
             var credentials = Encoding.UTF8.GetString(credentialBytes).Split(':');
             var email = credentials[0];
             var password = credentials[1];
 
-            // SM: This checks against the database and determine if the username/email and password
+            // This checks against the database and determine if the username/email and password
             // exist in it. "Any" functions returns true/false if one is found
-            // For those who are more familiar with javascript, this would be: users.some(user => ...)
             if (DataMock.Users.Any(user => user.Email!.Equals(email, StringComparison.OrdinalIgnoreCase)
                                         && user.Password == password))
             {
-                // SM: This is how C# middleware captures the email which will be
+                // This is how C# middleware captures the email which will be
                 // used later by authorization via ClaimsTransformer
                 // I am using "emails" instead of "email" claim to match how jwt sends it
                 var claims = new[] { new Claim("emails", email) };
