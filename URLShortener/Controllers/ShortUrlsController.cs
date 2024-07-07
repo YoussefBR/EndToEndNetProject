@@ -1,8 +1,10 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace URLShortener.Controllers;
 
 [ApiController]
+[Authorize(Policy = "Read")]
 [Route("[controller]")]
 
 public class ShortUrlsController: ControllerBase{
@@ -23,23 +25,26 @@ public class ShortUrlsController: ControllerBase{
         return 4;
     }
 
-
+    [Authorize(Policy = "Update")]
     [HttpPut("{shortUrl}")]
-    public string Put(string shortUrl, string? keyword, [FromBody] ShortUrls url){
-        return "http://localhost:5097/navigate/ge123";
+    public string Put(string shortUrl, string? keyword, [FromBody] ShortUrl url){
+        return "Successfully put: " + url.Url;
         // generate a random url an attach it to the request id
         // generateURL(id)
     }
 
-
+    [Authorize(Policy = "Delete")]
     [HttpDelete("{shortUrl}")]
-    public void Delete(string shortUrl){
+    public string Delete(string shortUrl){
         // deleteURL(id)
+        return "Successfully deleted: " + shortUrl;
     }
 
+    [Authorize(Policy = "Create")]
     [HttpPost("{shortUrl}")]
-    public void Post(string shortUrl){
+    public string Post(string shortUrl){
         // regenURL(id);
+        return "Successfully posted: " + shortUrl;
     }
 
 }

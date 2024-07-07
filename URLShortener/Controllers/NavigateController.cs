@@ -8,9 +8,9 @@ namespace URLShortener.Controllers;
 public class NavigateController: ControllerBase{
 
     [HttpGet("/navigate/{shortUrl}")]
-    public string Get(string shortUrl){ 
+    public RedirectResult Get(string shortUrl){ 
         // use id to grab full address
         string full_addr = "https://true-address.com";
-        return full_addr;
+        return Redirect("https://www.google.com");
     }
 }

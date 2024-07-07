@@ -1,6 +1,6 @@
 namespace URLShortener;
 
-public class ShortUrls{
+public class ShortUrl{
 
     public string? Url {get; set;}
     public int? Hits {get; set;}

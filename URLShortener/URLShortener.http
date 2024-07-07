@@ -1,4 +1,5 @@
-@URLShortener_HostAddress = https://youssef-urlshortner.scm.azurewebsites.net/api/deployments/latest
+@URLShortener_HostAddress = https://youssef-urlshortner.azurewebsites.net
+//@URLShortener_HostAddress = http://localhost:5138
 
 # API: Get short url
 # This call should retrun a string "http://localhost:5097/navigate/ge123"
@@ -9,7 +10,7 @@ Accept: application/json
 
 # API: Create or update short url
 # This call should return a string "http://localhost:5097/navigate/ge123"
-PUT {{URLShortener_HostAddress}}/shortUrls/url1
+POST {{URLShortener_HostAddress}}/shortUrls/url1
 Accept: application/json
 Content-Type: application/json
 
