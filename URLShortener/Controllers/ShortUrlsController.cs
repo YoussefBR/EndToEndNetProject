@@ -1,9 +1,11 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace URLShortener.Controllers;
 
 [ApiController]
+[Authorize(AuthenticationSchemes = $"{JwtBearerDefaults.AuthenticationScheme},BasicAuthentication")]
 [Authorize(Policy = "Read")]
 [Route("[controller]")]
 
@@ -20,15 +22,16 @@ public class ShortUrlsController: ControllerBase{
         return "http://localhost:5097/navigate/ge123";
     }
 
+    [Authorize(Policy = "Create")]
     [HttpGet("{shortUrl}/hits")]
     public int GetHits(string shortUrl){
         return 4;
     }
 
     [Authorize(Policy = "Update")]
-    [HttpPut("{shortUrl}")]
-    public string Put(string shortUrl, string? keyword, [FromBody] ShortUrl url){
-        return "Successfully put: " + url.Url;
+    [HttpPost("{shortUrl}")]
+    public string Post(string shortUrl, string? keyword, [FromBody] ShortUrl url){
+        return "Successfully posted: " + url.Url;
         // generate a random url an attach it to the request id
         // generateURL(id)
     }
@@ -41,10 +44,10 @@ public class ShortUrlsController: ControllerBase{
     }
 
     [Authorize(Policy = "Create")]
-    [HttpPost("{shortUrl}")]
-    public string Post(string shortUrl){
+    [HttpPut("{shortUrl}")]
+    public string Put(string shortUrl){
         // regenURL(id);
-        return "Successfully posted: " + shortUrl;
+        return "Successfully put: " + shortUrl;
     }
 
 }

@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization.Infrastructure;
 using Microsoft.Extensions.Options;
+using System.Diagnostics;
 using System.Net.Http.Headers;
 using System.Security.Claims;
 using System.Text;
