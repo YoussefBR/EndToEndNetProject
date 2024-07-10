@@ -31,7 +31,7 @@ public class BasicAuthenticationHandler(
             // This checks against the database and determine if the username/email and password
             // exist in it. "Any" functions returns true/false if one is found
             if (DataMock.Users.Any(user => user.Email!.Equals(email, StringComparison.OrdinalIgnoreCase)
-                                        && user.Password == password))
+                                        && user.Password == Cryptography.HashPassword(password, user.PasswordSalt!)))
             {
                 // This is how C# middleware captures the email which will be
                 // used later by authorization via ClaimsTransformer
