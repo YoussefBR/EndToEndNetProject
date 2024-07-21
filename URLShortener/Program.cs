@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using URLShortener.Helper;
 using URLShortener.Security;
+using Microsoft.EntityFrameworkCore;
 
 namespace URLShortener;
 
@@ -13,6 +14,11 @@ public class Program
         var builder = WebApplication.CreateBuilder(args);
 
         builder.Services.AddControllers();
+
+        builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+
+        builder.Services.AddDbContext<URLDatabaseContext>(options =>
+        options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
         builder.Services.AddAuthentication(options =>
         {
@@ -53,6 +59,7 @@ public class Program
             }
         }
 );
+
 
         // When somebody is authenticated, we have to determine what are their roles
         // This is why we add "ClaimsTransformation". We use AddTransient as want to call this

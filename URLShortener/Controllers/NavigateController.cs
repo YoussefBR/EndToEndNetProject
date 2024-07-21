@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
+using URLShortener.Helper;
+
 namespace URLShortener.Controllers;
 
 [ApiController]
@@ -10,11 +12,16 @@ namespace URLShortener.Controllers;
 
 public class NavigateController: ControllerBase{
 
+    private readonly URLDatabaseContext _context;
+
+    public NavigateController(URLDatabaseContext context){
+        _context = context;
+    }
+
     [AllowAnonymous]
     [HttpGet("/navigate/{shortUrl}")]
     public RedirectResult Get(string shortUrl){ 
-        // use id to grab full address
-        string full_addr = "https://true-address.com";
-        return Redirect("https://www.google.com");
+        ShortUrl url = _context.ShortUrls.SingleOrDefault(u => u.ShortenedUrl == shortUrl) ?? throw new Exception("URL not found");       
+        return Redirect(url.OriginalUrl);
     }
 }

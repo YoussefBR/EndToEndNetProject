@@ -23,5 +23,9 @@ namespace URLShortener.Security
             return BitConverter.ToString(hash).Replace("-", "").ToLower();
         }
 
+        public static string GenShortUrl(string longUrl, string urlId){
+            return HashPassword(longUrl, urlId).Substring(0, 20);
+        }
+
     }
 }
