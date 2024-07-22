@@ -88,7 +88,7 @@ public class ShortUrlsController: ControllerBase{
             else return "Short URL already in use";
         }
 
-        return "Successfully put: " + id;
+        return "Successfully posted: " + id;
 
     }
 
