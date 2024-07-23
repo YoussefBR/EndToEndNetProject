@@ -1,0 +1,2 @@
+# So that password isn't leaked
+.env

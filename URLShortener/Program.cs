@@ -15,11 +15,10 @@ public class Program
 
         builder.Services.AddControllers();
 
-        // builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
-        // builder.Configuration.GetConnectionString("DefaultConnection")
+        builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
         
         builder.Services.AddDbContext<URLDatabaseContext>(options =>
-        options.UseSqlServer("Server=tcp:cap-youssef-db.database.windows.net,1433;Initial Catalog=capyoussefdb;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;Authentication=Active Directory Default;"));
+        options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
         builder.Services.AddAuthentication(options =>
         {
